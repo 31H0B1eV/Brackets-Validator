@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <color name="button_focused_color_start">#BCC6CC</color>
+    <color name="button_focused_color_end">#BCC6CC</color>
+    <color name="button_normal_color_start">#98AFC7</color>
+    <color name="button_normal_color_end">#98AFC7</color>
+    <color name="button_pressed_color_start">#BCC6CC</color>
+    <color name="button_pressed_color_end">#BCC6CC</color>
+    <color name="White">#FFFFFF</color>
+</resources>

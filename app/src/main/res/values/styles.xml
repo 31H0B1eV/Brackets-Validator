@@ -1,0 +1,13 @@
+<resources>
+
+    <style name="AppTheme" parent="@style/Theme.AppCompat">
+        <item name="android:buttonStyle">@style/ButtonTheme</item>
+    </style>
+
+    <style name="ButtonTheme" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/button</item>
+        <item name="android:textColor">@color/White</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>

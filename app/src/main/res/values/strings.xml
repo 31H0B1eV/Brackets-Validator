@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Brackets Validator</string>
+    <string name="result_string">Input your string for getting result</string>
+    <string name="action_settings">Settings</string>
+
+</resources>

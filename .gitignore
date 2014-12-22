@@ -1,0 +1,22 @@
+.idea/*
+.DS_Store
+
+# Generated files
+bin/
+gen/
+
+# Log Files
+*.log
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Gradle files
+.gradle/
+build/
+
+# Files for the Dalvik VM
+*.dex
+
+# Java class files
+*.class

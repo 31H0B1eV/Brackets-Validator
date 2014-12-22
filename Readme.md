@@ -8,4 +8,5 @@
   * it use Robotium for UI test and creates some inputs with checking results.
 * Download and install .apk file in your device.
 
-![Alt text](http://i.piccy.info/i9/7401a653aeda318b58a62eec2772f5a0/1419258534/162748/846362/398720.png)
+![Alt text](http://i.piccy.info/i9/10c79114e25bc658cdbc75642fa4bea2/1419258822/23314/846362/001.png)
+![Alt text](http://i.piccy.info/i9/62c8b6f29aee592b4d7e8e77c606efa9/1419258838/18011/846362/002.png)

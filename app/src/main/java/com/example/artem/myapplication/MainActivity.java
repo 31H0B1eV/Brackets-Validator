@@ -1,10 +1,10 @@
 package com.example.artem.myapplication;
 
-import android.inputmethodservice.ExtractEditText;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.TextView;
 
 import java.util.Stack;
@@ -14,9 +14,7 @@ public class MainActivity extends ActionBarActivity {
 
     TextView txt;
     Button btn;
-    ExtractEditText etxt;
-
-    boolean result = false; // for testing
+    EditText etxt;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,7 +23,7 @@ public class MainActivity extends ActionBarActivity {
 
         txt = (TextView) findViewById(R.id.txt);
         btn = (Button)findViewById(R.id.btn);
-        etxt   = (ExtractEditText)findViewById(R.id.eText);
+        etxt   = (EditText)findViewById(R.id.eText);
 
         btn.setOnClickListener(
                 new View.OnClickListener() {
@@ -36,7 +34,6 @@ public class MainActivity extends ActionBarActivity {
                         boolean correct = validator.validate(test);
 
                         txt.setText("Brackets are placed " + (correct ? "" : "in") + "correct");
-                        result = correct;
                     }
                 });
     }
